@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="660.0" prefWidth="1335.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <AnchorPane prefHeight="55.0" prefWidth="1335.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fx:id="drawerImage" fitHeight="43.0" fitWidth="45.0" AnchorPane.bottomAnchor="17.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="@../../../2DAM/INTERFACES/shrak.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane1" prefHeight="310.0" prefWidth="1335.0" AnchorPane.topAnchor="55.0" />
+      <AnchorPane fx:id="pane2" layoutX="10.0" layoutY="65.0" prefHeight="310.0" prefWidth="1335.0" />
+      <AnchorPane fx:id="pane3" layoutX="10.0" layoutY="65.0" prefHeight="310.0" prefWidth="1335.0" />
+      <AnchorPane fx:id="pane4" layoutX="10.0" layoutY="65.0" prefHeight="310.0" prefWidth="1335.0" />
+      <GridPane prefHeight="470.0" prefWidth="720.0" AnchorPane.leftAnchor="260.0" AnchorPane.rightAnchor="260.0" AnchorPane.topAnchor="200.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="213.0" prefWidth="286.0" text="esta " textFill="WHITE" GridPane.columnIndex="1" />
+            <JFXButton layoutX="285.0" layoutY="10.0" prefHeight="213.0" prefWidth="286.0" text="esta" GridPane.rowIndex="1" />
+            <JFXButton layoutX="10.0" layoutY="167.0" prefHeight="213.0" prefWidth="286.0" text="poseida" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="213.0" prefWidth="286.0" text="Shrak" GridPane.rowIndex="2" />
+            <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="213.0" prefWidth="286.0" text="avisado" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <JFXButton layoutX="285.0" layoutY="10.0" prefHeight="213.0" prefWidth="286.0" text="Cuidao" textFill="WHITE" />
+            <JFXButton prefHeight="213.0" prefWidth="286.0" text="quedas" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <JFXButton prefHeight="213.0" prefWidth="286.0" text="por" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <JFXButton layoutX="285.0" layoutY="128.0" prefHeight="213.0" prefWidth="286.0" text="app" textFill="WHITE" GridPane.columnIndex="2" />
+         </children>
+      </GridPane>
+      <AnchorPane fx:id="opacityPane" prefHeight="310.0" prefWidth="1335.0" />
+      <AnchorPane fx:id="drawerPane" layoutY="81.0" prefHeight="1280.0" prefWidth="260.0">
+         <children>
+            <GridPane prefHeight="967.0" prefWidth="260.0" style="-fx-background-color: #FFFFFF01;" AnchorPane.bottomAnchor="313.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <JFXButton prefHeight="169.0" prefWidth="315.0" text="skere" textFill="WHITE" />
+                  <JFXButton layoutX="10.0" layoutY="10.0" prefHeight="169.0" prefWidth="315.0" text="I" textFill="WHITE" GridPane.rowIndex="1" />
+                  <JFXButton layoutX="10.0" layoutY="149.0" prefHeight="169.0" prefWidth="315.0" text="wanna" GridPane.rowIndex="2" />
+                  <JFXButton layoutX="10.0" layoutY="287.0" prefHeight="169.0" prefWidth="315.0" text="be" GridPane.rowIndex="3" />
+                  <JFXButton layoutX="10.0" layoutY="425.0" prefHeight="169.0" prefWidth="315.0" text="Winston" GridPane.rowIndex="4" />
+                  <JFXButton layoutX="10.0" layoutY="563.0" prefHeight="169.0" prefWidth="315.0" text="tela" GridPane.rowIndex="5" />
+                  <JFXButton layoutX="10.0" layoutY="701.0" prefHeight="169.0" prefWidth="315.0" text="creisteWE" GridPane.rowIndex="6" />
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
